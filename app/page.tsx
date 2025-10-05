@@ -5,7 +5,7 @@ import { Frameworks } from "@/components/frameworks"
 import { Benefits } from "@/components/benefits"
 import { Ecosystem } from "@/components/ecosystem"
 import { Footer } from "@/components/footer"
-
+export const runtime = "edge";
 export default function Home() {
   return (
     <main className="min-h-screen">
