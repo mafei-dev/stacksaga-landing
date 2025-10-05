@@ -1,0 +1,8 @@
+# .cloudflare/pages.yaml
+version: 1
+build:
+  command: pnpm install && pnpm build
+  environment:
+    NODE_VERSION: "18.18.2"
+    PNPM_VERSION: "9.0.0"
+  output_directory: /out
